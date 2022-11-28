@@ -28,7 +28,7 @@ import { AI, AIState, Inputs } from "../AI";
  */
 export default class ArenaCloser extends TankBody {
     /** Size of a level 0 Arena Closer. */
-    public static BASE_SIZE = 175;
+    public static BASE_SIZE = 350;
     
     /** The AI that controls how the AC moves. */
     public ai: AI;
@@ -41,9 +41,9 @@ export default class ArenaCloser extends TankBody {
         camera.setLevel = function(level) {
             setLevel.call(this, level);
 
-            this.sizeFactor *= (ArenaCloser.BASE_SIZE / 50);
+            this.sizeFactor *= (ArenaCloser.BASE_SIZE / 100);
         }
-        camera.sizeFactor = (ArenaCloser.BASE_SIZE / 50);
+        camera.sizeFactor = (ArenaCloser.BASE_SIZE / 100);
 
         super(game, camera, inputs);
 
