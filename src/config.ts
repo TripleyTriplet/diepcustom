@@ -99,7 +99,7 @@ export const defaultAccessLevel: AccessLevel = AccessLevel.BetaAccess;
 
 /** The developer tokens by role (UNNECESSARY UNLESS DISCORD INTEGRATION) */
 export const devTokens: Record<string, AccessLevel> = {
-    "*": defaultAccessLevel
+    "./src/config.ts": defaultAccessLevel
 }
 
 /** Should always be set to the url (UNNECESSARY UNLESS DISCORD INTEGRATION) */
