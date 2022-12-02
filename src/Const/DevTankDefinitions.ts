@@ -1395,7 +1395,7 @@ const DevTankDefinitions: TankDefinition[] = [
     {
         id: DevTank.Goodbye,
         name: "Goodbye",
-        upgradeMessage: "",
+        upgradeMessage: "Basically the same as AC, but more OP",
         levelRequirement: 45,
         upgrades: [],
         flags: {
