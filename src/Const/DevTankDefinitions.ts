@@ -23,7 +23,7 @@ import { TankDefinition } from "./TankDefinitions";
  * The IDs for all the dev tanks, by name.
  */
 export enum DevTank {
-    Developer = -1,
+    Developer! = -1,
     UsainBolt = -2,
     BigBoi = -3,
     Bouncy = -4,
@@ -46,7 +46,7 @@ export enum DevTank {
 const DevTankDefinitions: TankDefinition[] = [
     {
         id: DevTank.Developer,
-        name: "Developer",
+        name: "Developer!",
         upgradeMessage: "Use your right mouse button to teleport to where your mouse is",
         // upgrades dont have any affect
         upgrades: [],
