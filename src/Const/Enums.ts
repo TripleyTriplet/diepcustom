@@ -48,7 +48,7 @@ export enum Colors {
 export const ColorsHexCode: Record<Colors, number> = {
     [Colors.Border]: 0x555555,
     [Colors.Barrel]: 0x999999,
-    [Colors.Tank]: 0x00B2E1,
+    [Colors.Tank]: 0xBF7FF5,
     [Colors.TeamBlue]: 0x00B2E1,
     [Colors.TeamRed]: 0xF14E54,
     [Colors.TeamPurple]: 0xBF7FF5,
